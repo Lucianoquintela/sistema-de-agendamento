@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    margin: 10px 100px;
+}
+
+.areaTotalPcsText {
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+.inputs {
+    padding: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+fieldset{
+    margin: 10px;
+    padding: 10px;
+}
+.input-nome {
+    width: 50%;
+}
+
+.input-numero {
+    width: 90px;
+}
+
+.input-Quant-pc {
+    width: 220px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.containerNumeroEquantiPc {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+button {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: Tomato;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    border: none;
+}
+
+
+legend{
+    color: tomato;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #FF7F50;
+    transform: scale(1.05);
+}
+.creditos {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+    main {
+        padding: 20px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .areaTotalPcsText {
+        margin: 10px;
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .inputs {
+        padding: 0 20px 20px 20px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .input-nome {
+        width: 100%;
+    }
+
+    .input-numero {
+     
+        width: 50px;
+    }
+
+    .input-Quant-pc {
+        width: 100%;
+    }
+
+    .containerNumeroEquantiPc {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    
+   
+
+    input {
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 4px;
+    }
+
+
+legend{
+    color: tomato;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+fieldset{
+    margin: 0;
+}
+footer {
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.botoes{
+   
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+}
+}

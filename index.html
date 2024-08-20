@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/script.js"defer></script>
+    <title>Sistema de Agendamento</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sistema de Gerenciamento</h1>
+    </header>
+
+    <main>
+        <div class="areaTotalPcsText">
+            <p>Total de computadores: 15</p>
+        </div>
+
+        <fieldset>
+            <legend>Dados dos Computadores</legend>
+            <div id="form-container" class="inputs">
+                <div>
+                    <label>Nome</label><br>
+                    <input class="input-nome" type="text" placeholder="Nome">
+                </div>
+
+                <div class="containerNumeroEquantiPc">
+                    <div>
+                        <label>N°(s)</label><br>
+                        <input class="input-numero" type="text" placeholder="N°">
+                    </div>
+
+                    <div>
+                        <label>Quantidade de PCs pegos</label><br>
+                        <input class="input-Quant-pc" type="Number" placeholder="PCs pegos">
+                    </div>
+                    
+                <div class="container-data">
+                    <label>Data</label><br>
+                    <input class="input-data" type="date">
+                </div>
+                </div> 
+            </div>
+        </fieldset>
+        <br>
+
+        <div class="botoes">
+        <button id="add-button">Adicionar</button>
+        <button id="">Salvar</button>
+        <button id="">Gerar tabela</button>
+        </div>
+    </main>
+
+    <footer>
+        <p class="creditos">&copy; 2024 Sistema de Gerenciamento.</p>
+    </footer>
+</body>
+
+</html>
